@@ -5324,4 +5324,17 @@ a.credit {
 .extra:hover{
     transform: scale(1.06, 1.06);
   }
+.social-icons img{
+  display: block;
+}
+.social-icons b{
+  display: none;
+}
+@media(min-width:768px) {
+  .social-icons img{
+    display: inline;
+  }
+  .social-icons b{
+    display:inline ;
+  }
   
